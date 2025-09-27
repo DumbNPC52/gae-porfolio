@@ -10,7 +10,7 @@
     />
     <meta name="keywords" content="Portfolio, HTML/CSS, Javascript, Layout" />
     <title>LadyB</title>
-    <!-- Font Awesome -->
+    <!-- Import Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -18,11 +18,252 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Modern Normalize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <!-- Link to CSS File -->
     <link rel="stylesheet" href="styles/main.css" />
     <!-- Link to Favicon -->
 
     <!-- Link to Script File -->
   </head>
-  <body></body>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <!-- Logo -->
+      <div class="logo">
+        <img src="images/thumnail1.png" alt="logo" />
+      </div>
+
+      <!-- Button -->
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <!-- Navigation -->
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hello, I am <strong>Lady Bountiful</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Front-end Dev and Designer
+      </p>
+      <img src="img/1.jpg" alt="yep thats me" />
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I Do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Lorem, ipsum.</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Praesentium qui vel quae maxime reprehenderit sapiente voluptatibus
+            commodi earum impedit mollitia.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Lorem, ipsum.</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Praesentium qui vel quae maxime reprehenderit sapiente voluptatibus
+            commodi earum impedit mollitia.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Lorem, ipsum.</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Praesentium qui vel quae maxime reprehenderit sapiente voluptatibus
+            commodi earum impedit mollitia.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Lorem, ipsum.</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Praesentium qui vel quae maxime reprehenderit sapiente voluptatibus
+            commodi earum impedit mollitia.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Lorem, ipsum.</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Praesentium qui vel quae maxime reprehenderit sapiente voluptatibus
+            commodi earum impedit mollitia.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>Lorem, ipsum.</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Praesentium qui vel quae maxime reprehenderit sapiente voluptatibus
+            commodi earum impedit mollitia.
+          </p>
+        </div>
+      </div>
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nam!
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+          inventore unde eaque quidem minima vero.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+          eaque fugiat, optio harum atque placeat. Fugit?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+          possimus adipisci ab placeat inventore quidem minus reprehenderit
+          deleniti?
+        </p>
+      </div>
+
+      <img src="img/2.jpg" alt="the glow up is real" />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My Work</h2>
+      <p class="section__subtitle">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum?
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio Item 01 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio Item 02 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio2.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio Item 03 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio3.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio Item 04 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio4.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio Item 05 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio5.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio Item 06 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio6.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio Item 07 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio7.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio Item 08 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio8.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio Item 09 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio9.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio Item 10 -->
+        <a href="#" class="portfolio__item">
+          <img src="img/portfolio10.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <a href="mailto:hello@ladyB.designer" class="footer__link"
+        >hello@ladyB.designer</a>
+
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://twitter.com"
+            target="_blank"
+            aria-label="Twitter"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://linkedin.com"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="mailto:example@email.com"
+            aria-label="Email"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
